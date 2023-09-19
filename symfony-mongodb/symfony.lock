@@ -1,4 +1,19 @@
 {
+    "doctrine/annotations": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
+        },
+        "files": [
+            "config/routes/annotations.yaml"
+        ]
+    },
+    "doctrine/mongodb-odm-bundle": {
+        "version": "4.6.0"
+    },
     "symfony/console": {
         "version": "5.4",
         "recipe": {
