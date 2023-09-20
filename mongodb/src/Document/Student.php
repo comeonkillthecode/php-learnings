@@ -7,7 +7,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * @MongoDB\Document(collection="Students")
  */
-class Student
+class Student implements DocumentInterface
 {
     /**
      * @MongoDB\Id
